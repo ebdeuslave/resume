@@ -1,0 +1,43 @@
+/* Tech Stack Dropdown Styles */
+.tech-dropdown .dropdown-content {
+    display: none;
+    margin-left: 20px;
+    border-left: 2px solid #eee;
+    padding-left: 10px;
+}
+
+.tech-dropdown .dropdown-toggle {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+    /* Match badge spacing */
+    display: inline-block;
+    padding: .5em 1em;
+    /* Increased padding for larger look */
+    background-color: #e9ecef;
+    color: #495057;
+    border-radius: .25rem;
+    text-decoration: none;
+    font-size: 1em;
+    /* Ensure readable font size, can adjust if needed */
+}
+
+.tech-dropdown .dropdown-toggle:hover {
+    background-color: #d3d9df;
+    text-decoration: none;
+    /* Ensure no underline on hover */
+}
+
+.tech-stack-container ul.list-inline {
+    margin-bottom: 5px;
+    /* Adjust spacing below lists */
+}
+
+.tech-stack-container h6 {
+    margin-top: 10px;
+    /* Space above category titles */
+    margin-bottom: 5px;
+    font-size: 0.95em;
+    color: #555;
+    /* Slightly muted color for category titles */
+}
